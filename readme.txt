@@ -1,5 +1,23 @@
-Git is a version control system.
-Git is free software.
+git add filename
+git commit filename -s "description"
 
-test
+
+github:
+#make public key
+ssh-keygen -t rsa   
+
+#copy id_rsa_pub to github's SSH and GPG keys
+
+#初始化github
+git init
+
+#提交缓存区
+git add .
+
+#提交至本地仓库
+git commit -m "备注信息"
+
+#查询
+git log
+
 
